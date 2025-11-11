@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한민서 - 개발자 포트폴리오</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter 폰트 (Tailwind 기본 폰트와 유사) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="max-w-4xl mx-auto p-4 sm:p-8">
+        
+        <!-- 1. 기본 정보 (About Me & Contact) -->
+        <header class="mb-12 bg-white p-8 rounded-2xl shadow-lg">
+            <h1 class="text-4xl font-bold text-indigo-600 mb-2">한민서</h1>
+            <p class="text-lg text-gray-700 mb-6">
+                본인이 만들고싶은 웹, 앱, 게임 등을 만들어가며 배우는 초급 개발자입니다.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6">
+                <a href="mailto:tlfxla45@naver.com" class="flex items-center text-gray-600 hover:text-indigo-600 transition duration-300">
+                    <!-- Email Icon SVG -->
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    tlfxla45@naver.com
+                </a>
+                <a href="https://github.com/arti369" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-600 hover:text-indigo-600 transition duration-300">
+                    <!-- GitHub Icon SVG -->
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.951 0-1.093.39-1.988 1.03-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.201 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482C19.135 20.166 22 16.418 22 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                    github.com/arti369
+                </a>
+            </div>
+        </header>
+
+        <!-- 2. 전체 기술 스택 (Skills) -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">프로젝트명: BrainMate</h2>
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">프론트엔드</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-indigo-100 text-indigo-700 rounded-full px-4 py-1 text-sm font-medium">HTML</span>
+                        <span class="bg-indigo-100 text-indigo-700 rounded-full px-4 py-1 text-sm font-medium">CSS</span>
+                        <span class="bg-indigo-100 text-indigo-700 rounded-full px-4 py-1 text-sm font-medium">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold mb-3 text-green-600">백엔드</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-green-100 text-green-700 rounded-full px-4 py-1 text-sm font-medium">Flask</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-600">Tools</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-gray-200 text-gray-700 rounded-full px-4 py-1 text-sm font-medium">VSCode</span>
+                        <span class="bg-gray-200 text-gray-700 rounded-full px-4 py-1 text-sm font-medium">Git</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. 프로젝트 상세: BrainMate -->
+        <section>
+            <h2 class="text-3xl font-bold mb-6"></h2>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-lg space-y-8">
+
+                <!-- 문제 정의 -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">문제 정의</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        오프라인 강의를 들을 때 집중력, 이해력 문제로 한 번 들어서는 완벽히 강의 내용을 습득할 수 없는 불편한 점이 있습니다. 이러한 문제를 해결하기 위해 AI를 활용한 STT, 내용 요약, 정리 기능이 있는 웹사이트를 만들었습니다. 또한 음성녹음파일의 개인정보 유출, 저작권 침해 문제를 해결하기 위한 설계를 했습니다.
+                    </p>
+                </div>
+
+                <!-- 아키텍처/설계 -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">아키텍처/설계</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>'클라우드 API'대신 '로컬 서버' 실행, STT 모델: 'OpenAI Whisper' 채택</li>
+                        <li>요약 모델: 'Hugging Face Transformers' 생태계 활용</li>
+                        <li>워크플로우: '2단계 비동기 API' 분리</li>
+                        <li>데이터 보안: '원본 음성 파일 즉시 삭제' 정책</li>
+                    </ul>
+                </div>
+
+                <!-- 핵심 기능 -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-indigo-600">핵심 기능</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        
+                        <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                            <h4 class="text-lg font-bold text-indigo-800 mb-2">온프레미스 STT 엔진</h4>
+                            <p class="text-gray-700">
+                                사용자가 업로드한 오디오 파일(회의록, 강의, 통화 녹음 등)을 외부 API로 전송하지 않고 서버 내에 직접 설치된 AI 모델(Whisper)을 통해 텍스트로 변환합니다. 민감한 음성 데이터의 유출을 원천적으로 차단하여 완벽한 데이터 보안을 보장합니다.
+                            </p>
+                        </div>
+                        
+                        <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                            <h4 class="text-lg font-bold text-indigo-800 mb-2">AI-인간 협업 편집기</h4>
+                            <p class="text-gray-700">
+                                AI가 생성한 텍스트 초안을 사용자가 실시간으로 검토하고 수정할 수 있는 웹 기반 편집기입니다. 고유명사, 전문 용어, 화자별 오류 등을 사용자가 직접 바로잡아 100% 정확한 텍스트 원본을 확보합니다. 이는 AI 요약의 품질을 극대화하는 핵심 단계입니다.
+                            </p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                            <h4 class="text-lg font-bold text-indigo-800 mb-2">컨텍스트 기반 요약기</h4>
+                            <p class="text-gray-700">
+                                사용자의 '수정'을 거친 최종 확정된 텍스트를 기반으로, 서버 내 AI 요약 모델이 작동합니다. 단순 키워드 나열이 아닌, 전체 문맥을 이해하여 핵심 주제, 결정 사항, 실행 항목을 추출하는 지능형 요약문을 생성합니다.
+                            </p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
+                            <h4 class="text-lg font-bold text-indigo-800 mb-2">원본 데이터 즉시 삭제</h4>
+                            <p class="text-gray-700">
+                                프로세스의 '보안'을 완성하는 핵심 작동 방식입니다. 텍스트 변환이 완료된 원본 오디오 파일은 서버에서 즉시 물리적으로 삭제됩니다.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 나의 역할 및 기여 -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">나의 역할 및 기여</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Flask 서버 구축</li>
+                        <li>API 엔드포인트 설계</li>
+                        <li>웹 디자인</li>
+                        <li>모델 설치 및 환경 설정</li>
+                    </ul>
+                </div>
+
+                <!-- 결과 및 성과 -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">결과 및 성과</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        개인정보, 저작권 침해에서 자유로운 간단한 음성파일 요약, 정리 웹사이트 구축
+                    </p>
+                </div>
+
+                <!-- 회고 (배운 점) -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">회고 (배운 점)</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li><strong>AI 모델 서빙 및 통합:</strong> 모델 로딩 시간, 메모리 관리, 추론 속도 등 실제 서비스 환경에서 부딪히는 성능 문제를 직접 체험하고 고민하게 됨</li>
+                        <li><strong>웹 서버와 긴 작업 처리:</strong> 비동기(Asynchronous) 처리의 필요성을 깨닫게 됨</li>
+                        <li><strong>보안 및 파일 처리:</strong> 사용자가 업로드한 파일을 안전하게 처리하는 방법(파일명 보안 처리, 임시 저장)을 배움</li>
+                    </ul>
+                </div>
+
+                <!-- 회고 (개선점) -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-600">회고 (개선점)</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">비동기 작업 큐(Task Queue) 도입</h4>
+                            <ul class="list-decimal list-inside ml-4 text-gray-700">
+                                <li><strong>문제점:</strong> 지금 구조로는 10분짜리 음성 파일을 올리면, 변환이 끝날 때까지 (몇 분간) 서버가 응답 불능 상태가 되고 사용자는 무한 대기하게 됨</li>
+                                <li><strong>개선:</strong> Celery와 Redis (또는 RabbitMQ) 같은 메시지 큐 시스템을 도입</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800">고기능 에디터 도입</h4>
+                            <ul class="list-decimal list-inside ml-4 text-gray-700">
+                                <li><strong>문제점:</strong> 기본 &lt;textarea&gt;는 단순 텍스트 수정만 가능</li>
+                                <li><strong>개선:</strong> Draft.js나 Quill.js 같은 자바스크립트 에디터 라이브러리를 도입하여, 위에서 언급한 '타임스탬프', '화자' 정보를 시각적으로 표시하고 더 편리하게 편집하도록 지원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 py-6 border-t border-gray-300">
+            <p class="text-gray-600">&copy; 2025 한민서. All rights reserved.</p>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
